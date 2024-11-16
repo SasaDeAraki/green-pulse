@@ -1,0 +1,31 @@
+nav {
+    color: #3fc6d1;
+    justify-content: space-between;
+    display: flex;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+  }
+
+ul, li {
+  text-decoration: none;
+  display: flex;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+  }
+
+  ul :hover {
+    margin-top: 0px;
+  }
+
+  h1{
+    margin: 5px;
+  }
+
+  h1 :hover {
+    margin: 0px 0px;
+    font-size: 25px;
+  }
