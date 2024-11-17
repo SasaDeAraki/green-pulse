@@ -1,6 +1,6 @@
 header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to right, #62c060, #007e8a);
+  background-image: white;
   padding: 10px;
   color: white;
   text-align: center;
@@ -23,14 +23,28 @@ h1{
 }
 
 ul, li {
-  color: #56ff54;
+
+  color: #000;
+  font-family: Playfair;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-decoration: none;
   display: flex;
   text-decoration: none;
   margin: 15px;
-  cursor: pointer;;
+  cursor: pointer;
+}
+
+a {
+  color: #000;
+  font-family: Playfair;
+  font-size: 29px;
+  text-decoration: none;
 }
 
 ul :hover {
   margin-top: 0px;
 }
+
