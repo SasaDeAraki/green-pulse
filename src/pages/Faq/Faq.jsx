@@ -10,7 +10,7 @@ export default function FAQ() {
     };
 
     const questions = [
-        { question: "O que é a Green Pulse?", answer: "Uma empresa" },
+        { question: "O que é a Green Pulse?", answer: "É uma empresa" },
         { question: "Como funcionam as plataformas?", answer: "Funcionando" },
         { question: "Quanto de energia geram a cada passo?", answer: "muita" },
         { question: "Quais são os impactos ambientais dos materiais usados no piso?", answer: "varios" },
@@ -19,7 +19,7 @@ export default function FAQ() {
     ];
 
     return (
-        <div className="container" style={{ marginBottom: 150, marginTop: 150}}>
+        <div className="container" style={{ marginBottom: 110, marginTop: 80}}>
             {questions.map((item, index) => (
                 <div 
                     key={index} 

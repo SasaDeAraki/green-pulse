@@ -1,12 +1,12 @@
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .questions {
     border: 3px solid #020202;
     font-size: 25px;
-    border-radius: 22px;
+    border-radius: 20px;
     background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 25px 20px;

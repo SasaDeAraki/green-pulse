@@ -18,8 +18,8 @@ export default function App() {
       <div>
         <Routes>
           <Route exact path='/' Component={ Home } />
-          <Route exact path='/about' Component={ About } />
-          <Route exact path='/product' Component={ Product } />
+          <Route path='/about' Component={ About } />
+          <Route path='/product' Component={ Product } />
           <Route path='/dashboard' Component={ Dashboard } />
           <Route path='/faq' Component={ Faq } />
         </Routes>
