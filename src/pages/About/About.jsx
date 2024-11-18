@@ -1,9 +1,24 @@
+import './About.css';
+import img1 from '../../images/people-walking.png';
+
 export default function About() {
     return(
         <>
-            <div style={{ marginBottom: 110, marginTop: 80}}>
-                <h1 style={{color: 'black', fontSize: '25px'}}>About</h1>
+            <div className="container-h1">
+                <h1>Sobre nós</h1>
             </div>
+
+            <div className='container-intro'>
+                <img src={img1}></img>
+                <div className='paragrafo'><p className='p-intro'>asdiuahsduihadsuhasduadhsausdhaydgasgdaugsdyagduygasudgausgduasgdagsdagsduygaiudguyasgduagsudasdgaysuyiasguyiadgiuaygsduiagysduiyagsiudauisydgiuaysgdiagsdiuagdsiuygduagisudygiadsgiauysdguaygsdiuaygsdiuyagsiuydgaiusdgiauysgdiausydgiadgiudaudsyagdiuyag</p></div>
+                
+            </div>
+
+            <div className='container-conteudo'>
+                <p className='p-conteudo'>asdiuahsduihadsuhasduadhsausdhaydgasgdaugsdyagduygasudgausgduasgdagsdagsduygaiudguyasgduagsudasdgaysuyiasguyiadgiuaygsduiagysduiyagsiudauisydgiuaysgdiagsdiuagdsiuygduagisudygiadsgiauysdguaygsdiuaygsdiuyagsiuydgaiusdgiauysgdiausydgiadgiudaudsyagdiuyag</p>
+            </div>
+
+
         </>
     )
 }

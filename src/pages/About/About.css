@@ -1,0 +1,25 @@
+.container-h1{
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
+img{
+    width: 430px;
+    height: 410px;
+}
+
+.p-intro {
+    margin-left: 60px;
+}
+
+.container-intro{
+    display: flex;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.p-conteudo{
+    text-align: center;
+
+}
