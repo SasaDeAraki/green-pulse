@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <>
-            <h1 style={{color: 'blue', fontSize: '30px'}}>Home</h1>
+            <h1 style={{color: 'black', fontSize: '25px'}}>Home</h1>
         </>
     );
 }

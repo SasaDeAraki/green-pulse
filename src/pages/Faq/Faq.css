@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.questions {
+    border: 3px solid #020202;
+    font-size: 25px;
+    border-radius: 22px;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    width: 100%;
+    transition: background-color 0.8s ease;
+}
+
+.questions:hover {
+    background-color: #f9f9f9;
+}
+
+.arrow-icon {
+    width: 20px;
+    transition: transform 0.3s;
+    float: right;
+}
+
+.arrow-icon.open {
+    transform: rotate(180deg);
+}
+
+.answer {
+    margin-top: 10px;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+}
+
+.expanded .answer {
+    max-height: 200px;
+}
