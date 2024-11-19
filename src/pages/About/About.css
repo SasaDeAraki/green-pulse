@@ -1,31 +1,123 @@
 .container-h1{
     text-align: center;
-    text-decoration-line: underline;
     margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-h1 h1 {
+    font-size: 32px;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-h1 hr {
+    display: flex;
+    width: 230px;
+    justify-content: center;
+}
+
+.h1-hr {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .container-intro img{
     width: 430px;
-    height: 410px;
+    height: 430px;
 }
 
 .p-intro {
-    margin-left: 60px;
+    width: 46vw;
+    margin-left: auto;
+    margin-right: 200px;
 }
 
 .container-intro{
     display: flex;
-    margin-left: 150px;
-    text-align: center;
+    align-items: center;
+    margin-left: 200px;
 }
 
 .p-conteudo{
     text-align: center;
-    margin-top: 60px;
-    
-
+    margin: 0 200px;
+    text-align: justify;
+    margin-top: 30px;
 }
 
 .container-separador{
-    margin-top: 50px;
+    margin: 50px 0;
+}
+
+.container-intro p {
+    text-align: justify;
+}
+
+.i-card-container {
+    display: flex;
+    align-items: center;
+    padding: 55px 50px;
+    margin-bottom: 50px;
+}
+
+.i-card-content {
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 'Playfair', serif;
+}
+
+.i-card-content > *:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
+.i-card-picture img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.i-card-content h1 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.i-card-content h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.i-card-button {
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.i-card-button:last-child {
+    margin-left: auto;
+}
+
+.i-card-title {
+    display: flex;
+}
+
+.i-card-title div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.i-card-title div img {
+    width: 120px;
+    height: 1px;
 }

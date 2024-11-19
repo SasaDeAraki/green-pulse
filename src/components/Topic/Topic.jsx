@@ -1,5 +1,4 @@
 import './Topic.css'
-import holderSVG from '../../images/holder.svg'
 
 export default function Topic({icon, titulo, texto}) {
     return(
