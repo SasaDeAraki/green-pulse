@@ -1,16 +1,15 @@
 import './Topic.css'
+import holderSVG from '../../images/holder.svg'
 
 export default function Topic({icon, titulo, texto}) {
     return(
         <>
-        <div className="container-topic">
-            <div className='topic-image'>
-                <img src={icon}/>
+        <div class="card">
+            <div class="icon">
+                <i class="material-icons md-36">{icon}</i>
             </div>
-            <div className='topic-text'>
-                <h3>{titulo}</h3>
-                <p>{texto}</p>
-            </div>
+            <p class="title">{titulo}</p>
+            <p class="text">{texto}</p>
         </div>
         </>
     )

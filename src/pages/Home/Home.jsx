@@ -4,6 +4,7 @@ import holder from '../../images/holder.png'
 import './Home.css'
 import separador from '../../images/separador.png'
 import send from '../../images/send.png'
+import 'material-icons/iconfont/material-icons.css';
 
 export default function Home() {
     return (
@@ -19,9 +20,9 @@ export default function Home() {
                 <p>Caminhando rumo a um futuro mais verde</p>
             </div>
             <div className='container-topics'>
-                <Topic icon={holder} titulo='Teste' texto='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus dolores exercitationem quas molestias adipisci.'/>
-                <Topic icon={holder} titulo='Teste2' texto='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus dolores exercitationem quas molestias adipisci.'/>
-                <Topic icon={holder} titulo='Teste3' texto='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus dolores exercitationem quas molestias adipisci.'/>
+                <Topic icon='select_check_box' titulo='teste' texto='Lorem'/>
+                <Topic icon='select_check_box' titulo='teste' texto='Lorem'/>
+                <Topic icon='select_check_box' titulo='teste' texto='Lorem'/>
             </div>
             <div className='container-pitch-vd'>
                 <div className='pitch-vd'>

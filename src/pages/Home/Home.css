@@ -11,10 +11,17 @@
     font-size: 48px;
 }
 
+.banner-green p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .container-topics {
     display: flex;
     justify-content: space-between;
-    margin: 0 120px;
+    margin: 40px 140px;
+    
 }
 
 .container-pitch-vd {
@@ -45,6 +52,7 @@
     width: 400px;
     margin: 30px 0;
     font-family: 'Lato', sans-serif;
+    text-align: justify;
 }
 
 .pitch-vd-texto button {
