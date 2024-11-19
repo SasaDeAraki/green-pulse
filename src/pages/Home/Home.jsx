@@ -8,7 +8,13 @@ import send from '../../images/send.png'
 export default function Home() {
     return (
         <>
-            <div className="banner-green">
+            <div className="banner-green" style={{
+                backgroundImage: `url(${bannerImg})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                height: '450px',
+                width: '100%'
+                }}>
                 <h2>Green Pulse</h2>
                 <p>Caminhando rumo a um futuro mais verde</p>
             </div>
@@ -43,7 +49,7 @@ export default function Home() {
                 </div>
                 <p>Fale conosco</p>
                 <div className='contato-input'>
-                    <input placeholder='insira seu email'></input><img src={send}></img>
+                    <input placeholder='insira seu email'></input><img src={send}></img>    
                 </div>
             </div>
         </>

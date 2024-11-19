@@ -1,3 +1,16 @@
+.banner-green {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-green h2 {
+    font-weight: 200;
+    font-size: 48px;
+}
+
 .container-topics {
     display: flex;
     justify-content: space-between;
@@ -31,6 +44,7 @@
 .pitch-vd-texto p {
     width: 400px;
     margin: 30px 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .pitch-vd-texto button {
