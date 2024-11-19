@@ -1,5 +1,5 @@
 import './About.css';
-import img1 from '../../images/people-walking.png';
+import img1 from '../../images/banner.png';
 
 export default function About() {
     return(
