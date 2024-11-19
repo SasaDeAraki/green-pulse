@@ -1,6 +1,6 @@
 import './About.css';
 import img1 from '../../images/banner.png';
-
+import separador from '../../images/separador.png'
 export default function About() {
     return(
         <>
@@ -10,7 +10,8 @@ export default function About() {
 
             <div className='container-intro'>
                 <img src={img1}></img>
-                <div className='paragrafo'><p className='p-intro'>asdiuahsduihadsuhasduadhsausdhaydgasgdaugsdyagduygasudgausgduasgdagsdagsduygaiudguyasgduagsudasdgaysuyiasguyiadgiuaygsduiagysduiyagsiudauisydgiuaysgdiagsdiuagdsiuygduagisudygiadsgiauysdguaygsdiuaygsdiuyagsiuydgaiusdgiauysgdiausydgiadgiudaudsyagdiuyag</p></div>
+                <div className='paragrafo'><p className='p-intro'>asdiuahsduihadsuhasduadhsausdhaydgasgdaugsdyagduygasudgausgduasgdagsdagsduygaiudguyasgduagsudasdgaysuyiasguyiadgiuaygsduiagysduiyagsiudauisydgiuaysgdiagsdiuagdsiuygduagisudygiadsgiauysdguaygsdiuaygsdiuyagsiuydgaiusdgiauysgdiausydgiadgiudaudsyagdiuyag</p>
+                </div>
                 
             </div>
 
@@ -18,6 +19,9 @@ export default function About() {
                 <p className='p-conteudo'>asdiuahsduihadsuhasduadhsausdhaydgasgdaugsdyagduygasudgausgduasgdagsdagsduygaiudguyasgduagsudasdgaysuyiasguyiadgiuaygsduiagysduiyagsiudauisydgiuaysgdiagsdiuagdsiuygduagisudygiadsgiauysdguaygsdiuaygsdiuyagsiuydgaiusdgiauysgdiausydgiadgiudaudsyagdiuyag</p>
             </div>
 
+            <div className='container-separador'>
+                <img src={separador}></img>
+            </div>
 
         </>
     )
