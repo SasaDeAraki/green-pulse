@@ -89,3 +89,9 @@
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;
  }
+
+.material-icons.md-24 {
+   margin-left: -165px;
+   font-size: 24px;
+   color: red; /* ALTERAR MAIS TARDE */
+}

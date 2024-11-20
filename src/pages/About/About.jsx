@@ -68,7 +68,9 @@ export default function About() {
                             </div>
                             <h3>1º ano de engenharia de software</h3>
                         </div>
-                        <p className='textocard'>{texto}</p>
+                        <div className='container-textocard'>
+                            <p className='textocard'>{texto}</p>
+                        </div>
                     </div>
                     <img src={rArrow} id="next-button" onClick={nextCard} className="i-card-button"></img>
                 </div>
