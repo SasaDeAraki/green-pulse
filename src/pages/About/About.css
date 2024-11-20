@@ -124,5 +124,6 @@
 
 .textocard{
     margin-top: 20px;
-    
+    max-width: 900px;
+    word-wrap: break-word;
 }
