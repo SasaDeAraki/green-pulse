@@ -1,0 +1,48 @@
+.container-card {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+}
+
+.container-card:hover {
+    scale: 0.98;
+    transition: 0.2s;
+}
+
+.card-banner {
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+}
+
+.card-title > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.card-content {
+    padding: 5px 10px;
+}
+
+.card-title h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-separador2 {
+    height: 1px;
+    width: 20px;
+}
+
+.card-ico {
+    height: 35px;
+    width: 35px;
+}

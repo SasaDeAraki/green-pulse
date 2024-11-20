@@ -1,55 +1,26 @@
+import ProductCard from '../../components/ProductCard/ProductCard';
 import './Product.css';
-import img1 from '../../images/banner.png';
+import holder from '../../images/holder.png'
+
 
 export default function Product() {
     return (
-        <div className="about-product">
-            <h1>Sobre o produto</h1>
-            <div className="product-box">
-                <div className="product">
-                    <img src={img1} alt="Produto 1" />
-                    <p>
-                        Este é um exemplo de descrição de produto. 
-                        Inclua aqui as informações que deseja exibir sobre o produto.
-                    </p>
+        <div className="container-product">
+            <div className="container-h1">
+                <h1>Sobre o produto</h1>
+                <div className='h1-hr'>
+                    <hr/>
                 </div>
-                <div className="product">
-                    <img src={img1} alt="Produto 2" />
-                    <p>
-                        Este é um exemplo de descrição de produto. 
-                        Inclua aqui as informações que deseja exibir sobre o produto.
-                    </p>
-                </div>
-                <div className="product">
-                    <img src={img1} alt="Produto 3" />
-                    <p>
-                        Este é um exemplo de descrição de produto. 
-                        Inclua aqui as informações que deseja exibir sobre o produto.
-                    </p>
-                </div>
-                </div>
-                <div className="product-box">
-                <div className="product">
-                    <img src={img1} alt="Produto 4" />
-                    <p>
-                        Este é um exemplo de descrição de produto. 
-                        Inclua aqui as informações que deseja exibir sobre o produto.
-                    </p>
-                </div>
-                <div className="product">
-                    <img src={img1} alt="Produto 5" />
-                    <p>
-                        Este é um exemplo de descrição de produto. 
-                        Inclua aqui as informações que deseja exibir sobre o produto.
-                    </p>
-                </div>
-                <div className="product">
-                    <img src={img1} alt="Produto 6" />
-                    <p>
-                        Este é um exemplo de descrição de produto. 
-                        Inclua aqui as informações que deseja exibir sobre o produto.
-                    </p>
-                </div>
+            </div>
+            <div className='container-cards'>
+                <ProductCard img={holder} titulo='abobora' texto='aboroba' />
+                <ProductCard img={holder} titulo='abobora' texto='aboroba' />
+                <ProductCard img={holder} titulo='abobora' texto='aboroba' />
+            </div>
+            <div className='container-cards'>
+                <ProductCard img={holder} titulo='abobora' texto='aboroba' />
+                <ProductCard img={holder} titulo='abobora' texto='aboroba' />
+                <ProductCard img={holder} titulo='abobora' texto='aboroba' />
             </div>
         </div>
     );
