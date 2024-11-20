@@ -15,7 +15,7 @@ export default function About() {
             imagem: holder,
             cor: '#C8DAB5',
             nome: 'Samuel Batista Viana',
-            texto: 'MACONHA PLAYS'
+            texto: 'ashdiuahshdiaushdiuahsdsagadusdugausygdiuygasiuydgiauysgdiuaygdsiuyagsdiuygasiduygaiusygdiuyagsiduygasuidygaiusydgiuasdgiuaysgdiuyagsdiuyagdiuaygasydgausydg'
         },
         {
             imagem: holder,
@@ -68,7 +68,7 @@ export default function About() {
                             </div>
                             <h3>1º ano de engenharia de software</h3>
                         </div>
-                        <p>{texto}</p>
+                        <p className='textocard'>{texto}</p>
                     </div>
                     <img src={rArrow} id="next-button" onClick={nextCard} className="i-card-button"></img>
                 </div>

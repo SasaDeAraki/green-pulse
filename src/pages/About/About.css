@@ -52,11 +52,11 @@
     text-align: center;
     margin: 0 200px;
     text-align: justify;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .container-separador{
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 .container-intro p {
@@ -120,4 +120,9 @@
 .i-card-title div img {
     width: 120px;
     height: 1px;
+}
+
+.textocard{
+    margin-top: 20px;
+    
 }
