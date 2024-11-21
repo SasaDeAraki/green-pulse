@@ -4,16 +4,15 @@
 }
 
 .questions {
-    border: 3px solid #020202;
+    border: 2px solid #020202;
     font-size: 25px;
     border-radius: 20px;
     background-color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 25px 20px;
     cursor: pointer;
     margin: 15px 0;
     width: 100%;
-    transition: background-color 0.8s ease;
 }
 
 .questions:hover {
@@ -22,7 +21,7 @@
 
 .arrow-icon {
     width: 20px;
-    transition: transform 0.3s;
+    transition: 0.3s;
     float: right;
 }
 
@@ -35,7 +34,7 @@
     color: #555;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.8s ease;
+    transition: all 0.8s ease;
 }
 
 .expanded .answer {

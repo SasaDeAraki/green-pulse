@@ -31,21 +31,20 @@
     font-weight: 400;
 }
 
+.container-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-intro img{
-    width: 430px;
-    height: 430px;
+    height: 400px;
 }
 
 .p-intro {
     width: 46vw;
     margin-left: auto;
     margin-right: 200px;
-}
-
-.container-intro{
-    display: flex;
-    align-items: center;
-    margin-left: 200px;
 }
 
 .p-conteudo{

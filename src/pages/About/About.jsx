@@ -1,5 +1,6 @@
 import './About.css';
 import holder from '../../images/holder.png';
+import sobre2 from '../../images/sobre2.jpg';
 
 export default function About() {
     return (
@@ -13,6 +14,8 @@ export default function About() {
 
             <div className='container-conteudo'>
                 <div className='container-intro'>
+                    <img src={holder}></img>
+                    <img src={sobre2}></img>
                     <img src={holder}></img>
                 </div>
                 <p className='p-conteudo'>Na Green Pulse, acreditamos que o futuro sustentável começa com pequenas inovações que transformam o cotidiano. Somos uma equipe de desenvolvedores apaixonados, movidos pelo desejo de tornar a energia verde uma realidade acessível e prática para todos.
