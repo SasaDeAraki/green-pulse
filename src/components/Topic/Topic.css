@@ -40,7 +40,7 @@
  
  .material-icons.md-36 {
     font-size: 36px;
-    margin-right: 252px;
+
  }
 
  .card .title {
@@ -69,7 +69,7 @@
  }
 
  .card:hover {
-    height: 270px;
+    height: 360px;
  }
 
  .card:hover .text {
@@ -84,7 +84,7 @@
  }
 
  .card:hover .icon i {
-    background: linear-gradient(90deg, #aecc8d, #789756);
+    background: linear-gradient(90deg, #aecc8d 33%, #576b41);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease;

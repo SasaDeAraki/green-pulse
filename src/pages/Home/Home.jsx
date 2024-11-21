@@ -5,8 +5,48 @@ import './Home.css'
 import separador from '../../images/separador.png'
 import send from '../../images/send.png'
 import 'material-icons/iconfont/material-icons.css';
+import separador2 from '../../images/separador2.png'
+import rArrow from '../../images/arrow-right.png'
+import lArrow from '../../images/arrow-left.png'
+import { useState } from 'react';
+import samuel from '../../images/samuel.png'
+import larissa from '../../images/larissa.png'
+import otavio from '../../images/otavio.png'
 
 export default function Home() {
+    const [curretIndex, setCurrentIndex] = useState(0)
+
+    const cards = [
+        {
+            imagem: samuel,
+            cor: '#C8DAB5',
+            nome: 'Samuel Batista Viana',
+            texto: 'RM556566'
+        },
+        {
+            imagem: larissa,
+            cor: '#C8DAB5',
+            nome: 'Larissa Queiroz Mattos Bosso',
+            texto: 'RM556599'
+        },
+        {
+            imagem: otavio,
+            cor: '#C8DAB5',
+            nome: 'Otávio Augusto Cimino Sampietro Uzal',
+            texto: 'RM555007'
+        }
+    ]
+
+    const prevCard = () => {
+        setCurrentIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : cards.length - 1));
+    }
+
+    const nextCard = () => {
+        setCurrentIndex((prevIndex) => (prevIndex < cards.length - 1 ? prevIndex + 1 : 0));
+    }
+
+    const {imagem, cor, nome, texto} = cards[curretIndex];
+
     return (
         <>
             <div className="banner-green" style={{
@@ -18,11 +58,6 @@ export default function Home() {
                 }}>
                 <h2>Green Pulse</h2>
                 <p>Caminhando rumo a um futuro mais verde</p>
-            </div>
-            <div className='container-topics'>
-                <Topic icon='select_check_box' titulo='teste' texto='Lorem'/>
-                <Topic icon='select_check_box' titulo='teste' texto='Lorem'/>
-                <Topic icon='select_check_box' titulo='teste' texto='Lorem'/>
             </div>
             <div className='container-pitch-vd'>
                 <div className='pitch-vd'>
@@ -36,10 +71,15 @@ export default function Home() {
                     />
                 </div>
                 <div className='pitch-vd-texto'>
-                    <h3>Vídeo Pitch</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit vero cum perferendis nam. At perferendis ducimus sed? Impedit accusamus eligendi harum natus nostrum nesciunt ex. Magni sunt aut illum?</p>
+                    <h3></h3>
+                    <p>Imagine um mundo onde cada passo que você dá contribui para um futuro mais sustentável. No Green Pulse, tornamos isso possível com nossos pisos geradores de energia inovadores. Integrando tecnologia de ponta e design ecológico, nossos pisos capturam a energia cinética do movimento diário, transformando-a em eletricidade limpa e renovável.</p>
                     <button><a href='https://www.youtube.com/watch?v=itohMQ48bMk'><div className='botao-pressao'><span>C</span><span>o</span><span>n</span><span>f</span><span>i</span><span>r</span><span>a</span></div></a></button>
                 </div>
+            </div>
+            <div className='container-topics'>
+                <Topic icon='check_circle' titulo='Praticidade' texto='Basta instalar o piso e conectar ao restante do sistema, todo o gerenciamento de energia será realizado pelo próprio dispositivo, que também possibilta alterações manuais.'/>
+                <Topic icon='battery_charging_full' titulo='Desempenho' texto='Capaz de gerar torno de 7w por cada passo, os nossos pisos são uma ferramenta eficiente na geração de energia verde.'/>
+                <Topic icon='description' titulo='Geração de dados' texto='Além da geração de energia, sensores internos do piso são capazes de detectar para onde o fluxo de pessoas está direcionado, e fazer o gerenciamento da energia de forma eficiente e automática.'/>
             </div>
             <div className='container-separador'>
                 <img src={separador}></img>
@@ -51,6 +91,27 @@ export default function Home() {
                 <p>Fale conosco</p>
                 <div className='contato-input'>
                     <input placeholder='insira seu email'></input><img src={send}></img>    
+                </div>
+            </div>
+            <div className="i-card">
+                <div className="i-card-container" style={{backgroundColor: cor}}>
+                    <img src={lArrow} id="previous-button" onClick={prevCard} className="i-card-button"></img>
+                    <div className="i-card-picture">
+                        <img alt="Foto" src={imagem}></img>
+                    </div>
+                    <div className="i-card-content">
+                        <h1>{nome}</h1>
+                        <div className='i-card-title'>
+                            <div>
+                                <img src={separador2}></img>
+                            </div>
+                            <h3>1º ano de engenharia de software</h3>
+                        </div>
+                        <div className='container-textocard'>
+                            <p className='textocard'>{texto}</p>
+                        </div>
+                    </div>
+                    <img src={rArrow} id="next-button" onClick={nextCard} className="i-card-button"></img>
                 </div>
             </div>
         </>

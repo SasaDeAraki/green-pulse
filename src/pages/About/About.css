@@ -53,6 +53,7 @@
     margin: 0 200px;
     text-align: justify;
     margin-top: 50px;
+    margin-bottom: 90px;
 }
 
 .container-separador{
@@ -67,7 +68,6 @@
     display: flex;
     align-items: center;
     padding: 55px 50px;
-    margin-bottom: 50px;
 }
 
 .i-card-content {
@@ -126,4 +126,6 @@
     margin-top: 20px;
     max-width: 900px;
     word-wrap: break-word;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
