@@ -96,7 +96,7 @@ export default function Home() {
                         width="700"
                         height="394"
                         src={
-                            'https://www.youtube.com/embed/itohMQ48bMk?si=vb3jQxkhTNkVA7dZ'
+                            'https://www.youtube.com/embed/jce1DuNU9tI?si=ZfDuYv3PmQb0ecaU'
                         }
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
@@ -111,7 +111,7 @@ export default function Home() {
                         ecológico, nossos pisos capturam a energia cinética do movimento diário,
                         transformando-a em eletricidade limpa e renovável.
                     </p>
-                    <button><a href='https://www.youtube.com/watch?v=itohMQ48bMk'><div className='botao-pressao'><span>C</span><span>o</span><span>n</span><span>f</span><span>i</span><span>r</span><span>a</span></div></a></button>
+                    <button><a href='https://www.youtube.com/watch?v=jce1DuNU9tI'><div className='botao-pressao'><span>C</span><span>o</span><span>n</span><span>f</span><span>i</span><span>r</span><span>a</span></div></a></button>
                 </div>
             </div>
             <div className="container-topics">
