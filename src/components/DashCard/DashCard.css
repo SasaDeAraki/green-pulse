@@ -11,7 +11,7 @@
     margin-bottom: 180px;
 }
 
-.valor {
+.valor-dash {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,20 +21,21 @@
     font-size: 24px;
 }
 
-.valor h1 {
+.valor-dash h1 {
     font-weight: 500;
 }
 
 .dashcard h3 {
     font-size: 24px;
     font-weight: 300;
+    margin-bottom: 0;
 }
 
 .dashcard p {
     font-size: 14px;
 }
 
-.texto {
+.texto-dash {
     margin-left: 13px;
     margin-top: 5px;
 }

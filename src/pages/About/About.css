@@ -39,6 +39,8 @@
 
 .container-intro img{
     height: 400px;
+    width: 400px;
+    object-fit: cover;
 }
 
 .p-intro {
@@ -61,70 +63,4 @@
 
 .container-intro p {
     text-align: justify;
-}
-
-.i-card-container {
-    display: flex;
-    align-items: center;
-    padding: 55px 50px;
-}
-
-.i-card-content {
-    margin-left: 40px;
-    font-size: 24px;
-    font-family: 'Playfair', serif;
-}
-
-.i-card-content > *:not(:last-child) {
-    margin-bottom: 5px;
-}
-
-
-.i-card-picture img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-}
-
-.i-card-content h1 {
-    font-weight: 400;
-    font-size: 26px;
-}
-
-.i-card-content h3 {
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.i-card-button {
-    margin: 0 30px;
-    cursor: pointer;
-    padding: 5px;
-}
-
-.i-card-button:last-child {
-    margin-left: auto;
-}
-
-.i-card-title {
-    display: flex;
-}
-
-.i-card-title div {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.i-card-title div img {
-    width: 120px;
-    height: 1px;
-}
-
-.textocard{
-    margin-top: 20px;
-    max-width: 900px;
-    word-wrap: break-word;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
 }

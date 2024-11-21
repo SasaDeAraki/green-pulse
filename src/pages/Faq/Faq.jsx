@@ -15,7 +15,8 @@ export default function FAQ() {
         { question: "Quanto de energia geram a cada passo?", answer: "Torno de 7w a cada passo dado." },
         { question: "Quais são os impactos ambientais dos materiais usados no piso?", answer: "A Green Pulse utiliza materiais ecológicos e de baixo impacto ambiental para a fabricação dos pisos. Nosso compromisso é criar produtos sustentáveis que não só geram energia limpa, mas também têm um processo de produção consciente e responsável." },
         { question: "Quanto tempo duram os pisos Green Pulse", answer: "Os pisos são projetados para durar muitos anos, com materiais duráveis e resistentes. A vida útil pode variar de acordo com o ambiente de instalação e o nível de manutenção, mas geralmente a durabilidade é superior a 10 anos, mesmo em áreas de tráfego intenso." },
-        { question: "Onde posso instalar os pissos Green Pulse?", answer: "Os pisos Green Pulse podem ser instalados em uma variedade de ambientes, incluindo áreas públicas de alto tráfego, academias, terminais de transporte e estádios." },
+        { question: "Onde posso instalar os pisos Green Pulse?", answer: "Os pisos Green Pulse podem ser instalados em uma variedade de ambientes, incluindo áreas públicas de alto tráfego, academias, terminais de transporte e estádios." },
+        { question: 'Como funciona a gestão de energia do produto?', answer: "Por meio de uma tecnologia que é capaz de detectar para onde as pessoas estão se movendo através da pressão de seus passos, nosso piso automatiza a quantidade de energia sendo enviada a cada setor de acordo com a densidade do tráfego se dirigindo àquele local para que a energia gerada seja utilizada da fora mais efetiva possível." },
     ];
 
     return (

@@ -134,3 +134,66 @@
 .contato-input img:hover {
     cursor: pointer;
 }
+
+
+.i-card-container {
+    display: flex;
+    align-items: center;
+    padding: 55px 50px;
+}
+
+.i-card-content {
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 'Playfair', serif;
+}
+
+.i-card-content > *:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
+.i-card-picture img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.i-card-content h1 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.i-card-content h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.i-card-button {
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.i-card-button:last-child {
+    margin-left: auto;
+}
+
+.i-card-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.separador {
+    width: 100px;
+    height: 1px;
+    margin-bottom: 7px;
+}
+
+.textocard{
+    margin-top: 20px;
+    max-width: 900px;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}

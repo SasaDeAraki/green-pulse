@@ -1,6 +1,7 @@
 import './About.css';
-import holder from '../../images/holder.png';
+import sobre1 from '../../images/sobre1.jpg';
 import sobre2 from '../../images/sobre2.jpg';
+import sobre3 from '../../images/sobre3.jpg';
 
 export default function About() {
     return (
@@ -14,9 +15,9 @@ export default function About() {
 
             <div className='container-conteudo'>
                 <div className='container-intro'>
-                    <img src={holder}></img>
+                    <img src={sobre1}></img>
                     <img src={sobre2}></img>
-                    <img src={holder}></img>
+                    <img src={sobre3}></img>
                 </div>
                 <p className='p-conteudo'>Na Green Pulse, acreditamos que o futuro sustentável começa com pequenas inovações que transformam o cotidiano. Somos uma equipe de desenvolvedores apaixonados, movidos pelo desejo de tornar a energia verde uma realidade acessível e prática para todos.
                 Nosso compromisso é criar soluções tecnológicas que integrem sustentabilidade e funcionalidade, ajudando a construir um mundo onde cada gesto, por menor que seja, contribua para um amanhã mais limpo e consciente.

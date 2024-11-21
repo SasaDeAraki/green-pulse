@@ -1,4 +1,4 @@
- .card {
+ .card-topic {
     width: 100%;
     max-width: 300px;
     min-width: 200px;
@@ -19,7 +19,7 @@
     transition: all 0.3s ease;
  }
 
- .icon {
+ .icon-topic {
     margin: 0 auto;
     width: 100%;
     height: 80px;
@@ -43,7 +43,7 @@
 
  }
 
- .card .title {
+ .card-topic .title-topic {
     width: 100%;
     margin: 0;
     text-align: center;
@@ -54,7 +54,7 @@
     letter-spacing: 4px;
  }
 
- .card .text {
+ .card-topic .text-topic {
     width: 80%;
     margin: 0 auto;
     font-size: 13px;
@@ -68,22 +68,22 @@
     transition: all 0.3s ease;
  }
 
- .card:hover {
-    height: 360px;
+ .card-topic:hover {
+    height: 410px;
  }
 
- .card:hover .text {
+ .card-topic:hover .text-topic {
     transition: all 0.3s ease;
     opacity: 1;
     max-height: 40px;
  }
 
- .card:hover .icon {
+ .card-topic:hover .icon-topic {
     background-position: -120px;
     transition: all 0.3s ease;
  }
 
- .card:hover .icon i {
+ .card-topic:hover .icon-topic i {
     background: linear-gradient(90deg, #aecc8d 33%, #576b41);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
